@@ -1,0 +1,157 @@
+body {
+    background-color: #4f4f4f;
+}
+.wrapper {
+    padding-top: 10px;
+	width: 1420px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.shadow { box-shadow: 10px 10px 10px black;}
+.radius {border-radius: 15px;}
+
+.header {
+    background-color:#909090;
+    padding-top: 10px;
+	padding-bottom: 10px;
+    height: 140px;
+    display : block;
+   
+}
+.header_img {
+    margin: 0;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.header_r {
+    position: relative;
+    float:right;
+    width: 286px;
+}
+
+.loupe {
+    height: auto;
+    margin-top: 25px;
+}
+
+.reload {
+   height:auto;
+   width: 20px;
+   float: right;
+   margin-right: 10px;
+}
+
+.close {
+    height: auto;
+    width: 20px; 
+    position: absolute;
+    margin-right: 10px;
+    bottom: 30px;
+    right: 0px;
+}
+
+.section{
+	margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section div{
+	background-color: #909090;
+	float: left;
+}
+
+.middle {
+	width: 1020px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cluster {
+    width : 1000px;
+    margin: 10px 10px 10px 10px;
+}
+
+.left {
+    width: 105px;
+    height: 400px;
+    padding-left: 35px;
+	padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.right {
+    width: 130px;
+    height: 400px;
+    padding-left: 10px;
+	padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.left img{
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.normal_r{
+    width: 70px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+
+.brick {
+    background: repeat url('resources/brick.jpg');
+    width: 120px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.greenbox {
+    background-color:#88ff89 !important;
+    width: 500px;
+    height: 160px;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: absolute;
+    top: 700px;
+    left: -40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.text1 {
+    font-size: 15px;
+    word-spacing: 0.5px;
+}
+
+.entrer{
+    font-size: 32px;
+    font-family:  Times, serif;
+    letter-spacing: 1.5px;
+}
+
+.text2{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.ordi{
+    text-shadow: 5px 4px 7px red;
+}
+
+.input {
+    width: 370px;
+    -webkit-appearance: textfield;
+    box-shadow: 0.5px 0.5px 0.5px grey inset;
+}
+
+.button{
+    -webkit-appearance: square-button;
+    background-image: -webkit-linear-gradient(top, #f2f4f4, #dfe0df);
+}
+
+.oeil {
+    border: 6px solid red;
+    border-radius: 5px;
+}

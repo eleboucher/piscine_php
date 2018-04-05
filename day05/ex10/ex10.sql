@@ -1,0 +1,1 @@
+SELECT title as 'Title', summary as 'Summary', prod_year from film, genre where film.id_genre = genre.id_genre and genre.name = 'erotic' ORDER BY prod_year DESC;

@@ -1,0 +1,1 @@
+SELECT REVERSE(SUBSTRING(phone_number, 2)) as 'enohpelet' FROM distrib where phone_number LIKE '05%';

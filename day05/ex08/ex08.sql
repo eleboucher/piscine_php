@@ -1,0 +1,1 @@
+SELECT last_name, first_name, DATE(birthdate) as birthdate from user_card where YEAR(birthdate) = 1989 ORDER BY last_name;

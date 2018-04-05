@@ -1,0 +1,42 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(18, 1fr);
+	grid-gap: 0%;
+	grid-template-rows: repeat(10, 50%);
+	margin: 1em auto;
+}
+
+ol, li {
+	float: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.element {
+	border: 1px solid black;
+	text-align: center;
+	font-size: 0.7vw;
+}
+
+.nbelem {
+	float:left;
+	font-size: 0.6vw;
+}
+
+.atommass {
+	float:right;
+	font-size: 0.6vw;
+}
+
+.nonmetal {background: #a0ffa0}
+.alkali {background: #ff6565}
+.teralkali {background: #ffdfad}
+.transmetal {background: #ffc0c0}
+.semimetal {background: #cccc98}
+.basicmetal {background: #cccccc}
+.halogen {background: #ffff99}
+.noblegas {background: #c0fffe}
+.unclassified {background: #ebebeb}
+.lanthanide {background: #ffbfff}
+.actinide {background: #ff99cd}

@@ -1,0 +1,690 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Mendeleïev</title>
+</head>
+<style>
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(18, 1fr);
+	grid-gap: 0%;
+	grid-template-rows: repeat(10, 50%);
+	margin: 1em auto;
+}
+
+ol, li {
+	float: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.element {
+	border: 1px solid black;
+	text-align: center;
+	font-size: 0.7vw;
+}
+
+.nbelem {
+	float:left;
+	font-size: 0.6vw;
+}
+
+.atommass {
+	float:right;
+	font-size: 0.6vw;
+}
+
+.nonmetal {background: #a0ffa0}
+.alkali {background: #ff6565}
+.teralkali {background: #ffdfad}
+.transmetal {background: #ffc0c0}
+.semimetal {background: #cccc98}
+.basicmetal {background: #cccccc}
+.halogen {background: #ffff99}
+.noblegas {background: #c0fffe}
+.unclassified {background: #ebebeb}
+.lanthanide {background: #ffbfff}
+.actinide {background: #ff99cd}
+</style>
+<body>
+	<div style="text-align:center">
+		<h1>Tableau périodique des éléments</h1>
+		<hr>
+		<img src="https://www.herodote.net/Images/mendeleievmaxi.jpg"/>
+		<h6>Dimitri Mendeleïev</h6>
+	</div>
+
+	<ol class="wrapper" contenteditable>
+		<li  style="grid-column:1; grid-row:1;" class="element nonmetal">
+			<span class="atommass">1.008</span>
+			<h2 class="name">H</h2>
+			<span class="nbelem">1</span>
+		</li>
+		<li style="grid-column:1; grid-row:2;" class="element alkali">
+			<span class="atommass">6.9395</span>
+			<h2 class="name">Li</h2>
+			<span class="nbelem">3</span>
+		</li>
+		<li style="grid-column:1; grid-row:3;" class="element alkali">
+			<span class="atommass">22.9897</span>
+			<h2 class="name">Na</h2>
+			<span class="nbelem">11</span>
+		</li>
+		<li style="grid-column:1; grid-row:4;" class="element alkali">
+			<span class="atommass">39.0983</span>
+			<h2 class="name">K</h2>
+			<span class="nbelem">19</span>
+		</li>
+		<li style="grid-column:1; grid-row:5;" class="element alkali">
+			<span class="atommass">85.4678</span>
+			<h2 class="name">Rb</h2>
+			<span class="nbelem">37</span>
+		</li>
+		<li style="grid-column:1; grid-row:6;" class="element alkali">
+			<span class="atommass">132.9054</span>
+			<h2 class="name">Cs</h2>
+			<span class="nbelem">55</span>
+		</li>
+		<li style="grid-column:1; grid-row:7;" class="element alkali">
+			<span class="atommass">223</span>
+			<h2 class="name">Fr</h2>
+			<span class="nbelem">87</span>
+		</li>
+
+		<li style="grid-column:2; grid-row:2;" class="element teralkali">
+			<span class="atommass">9.0121</span>
+			<h2 class="name">Be</h2>
+			<span class="nbelem">4</span>
+		</li>
+		<li style="grid-column:2; grid-row:3;" class="element teralkali">
+			<span class="atommass">24.3055</span>
+			<h2 class="name">Mg</h2>
+			<span class="nbelem">12</span>
+		</li>
+		<li style="grid-column:2; grid-row:4;" class="element teralkali">
+			<span class="atommass">40.078</span>
+			<h2 class="name">Ca</h2>
+			<span class="nbelem">20</span>
+		</li>
+		<li style="grid-column:2; grid-row:5;" class="element teralkali">
+			<span class="atommass">87.62</span>
+			<h2 class="name">Sr</h2>
+			<span class="nbelem">38</span>
+		</li>
+		<li style="grid-column:2; grid-row:6;" class="element teralkali">
+			<span class="atommass">137.327</span>
+			<h2 class="name">Ba</h2>
+			<span class="nbelem">56</span>
+		</li>
+		<li style="grid-column:2; grid-row:7;" class="element teralkali">
+			<span class="atommass">226</span>
+			<h2 class="name">Ra</h2>
+			<span class="nbelem">88</span>
+		</li>
+
+		<li style="grid-column:3; grid-row:4;" class="element transmetal">
+			<span class="atommass">44.9559</span>
+			<h2 class="name">Sc</h2>
+			<span class="nbelem">21</span>
+		</li>
+		<li style="grid-column:3; grid-row:5;" class="element transmetal">
+			<span class="atommass">88.9058</span>
+			<h2 class="name">Y</h2>
+			<span class="nbelem">39</span>
+		</li>
+		<li style="grid-column:3; grid-row:6;" class="element lanthanide">
+			<p class="name">57-71</p>
+		</li>
+		<li style="grid-column:3; grid-row:7;" class="element actinide">
+			<p class="name">89-103</p>
+		</li>
+
+		<li style="grid-column:4; grid-row:4;" class="element transmetal">
+			<span class="atommass">47.867</span>
+			<h2 class="name">Ti</h2>
+			<span class="nbelem">22</span>
+		</li>
+		<li style="grid-column:4; grid-row:5;" class="element transmetal">
+			<span class="atommass">91.224</span>
+			<h2 class="name">Y</h2>
+			<span class="nbelem">40</span>
+		</li>
+		<li style="grid-column:4; grid-row:6;" class="element transmetal">
+			<span class="atommass">178.49</span>
+			<h2 class="name">Hf</h2>
+			<span class="nbelem">72</span>
+		</li>
+		<li style="grid-column:4; grid-row:7;" class="element transmetal">
+			<span class="atommass">267</span>
+			<h2 class="name">Rf</h2>
+			<span class="nbelem">104</span>
+		</li>
+
+		<li style="grid-column:5; grid-row:4;" class="element transmetal">
+			<span class="atommass">50.9415</span>
+			<h2 class="name">V</h2>
+			<span class="nbelem">23</span>
+		</li>
+		<li style="grid-column:5; grid-row:5;" class="element transmetal">
+			<span class="atommass">92.9063</span>
+			<h2 class="name">Nb</h2>
+			<span class="nbelem">41</span>
+		</li>
+		<li style="grid-column:5; grid-row:6;" class="element transmetal">
+			<span class="atommass">180.9478</span>
+			<h2 class="name">Ta</h2>
+			<span class="nbelem">73</span>
+		</li>
+		<li style="grid-column:5; grid-row:7;" class="element transmetal">
+			<span class="atommass">268</span>
+			<h2 class="name">Db</h2>
+			<span class="nbelem">105</span>
+		</li>
+
+		<li style="grid-column:6; grid-row:4;" class="element transmetal">
+			<span class="atommass">51.9961</span>
+			<h2 class="name">Cr</h2>
+			<span class="nbelem">24</span>
+		</li>
+		<li style="grid-column:6; grid-row:5;" class="element transmetal">
+			<span class="atommass">95.95</span>
+			<h2 class="name">Mo</h2>
+			<span class="nbelem">42</span>
+		</li>
+		<li style="grid-column:6; grid-row:6;" class="element transmetal">
+			<span class="atommass">183.84</span>
+			<h2 class="name">W</h2>
+			<span class="nbelem">74</span>
+		</li>
+		<li style="grid-column:6; grid-row:7;" class="element transmetal">
+			<span class="atommass">269</span>
+			<h2 class="name">Sg</h2>
+			<span class="nbelem">106</span>
+		</li>
+
+		<li style="grid-column:7; grid-row:4;" class="element transmetal">
+			<span class="atommass">54.9380</span>
+			<h2 class="name">Mn</h2>
+			<span class="nbelem">25</span>
+		</li>
+		<li style="grid-column:7; grid-row:5;" class="element transmetal">
+			<span class="atommass">98</span>
+			<h2 class="name">Tc</h2>
+			<span class="nbelem">43</span>
+		</li>
+		<li style="grid-column:7; grid-row:6;" class="element transmetal">
+			<span class="atommass">186.207</span>
+			<h2 class="name">Re</h2>
+			<span class="nbelem">75</span>
+		</li>
+		<li style="grid-column:7; grid-row:7;" class="element transmetal">
+			<span class="atommass">270</span>
+			<h2 class="name">Bh</h2>
+			<span class="nbelem">107</span>
+		</li>
+
+		<li style="grid-column:8; grid-row:4;" class="element transmetal">
+			<span class="atommass">55.845</span>
+			<h2 class="name">Fe</h2>
+			<span class="nbelem">26</span>
+		</li>
+		<li style="grid-column:8; grid-row:5;" class="element transmetal">
+			<span class="atommass">101.07</span>
+			<h2 class="name">Ru</h2>
+			<span class="nbelem">44</span>
+		</li>
+		<li style="grid-column:8; grid-row:6;" class="element transmetal">
+			<span class="atommass">190.23</span>
+			<h2 class="name">Os</h2>
+			<span class="nbelem">76</span>
+		</li>
+		<li style="grid-column:8; grid-row:7;" class="element transmetal">
+			<span class="atommass">277</span>
+			<h2 class="name">Hs</h2>
+			<span class="nbelem">108</span>
+		</li>
+
+		<li style="grid-column:9; grid-row:4;" class="element transmetal">
+			<span class="atommass">58.9331</span>
+			<h2 class="name">Co</h2>
+			<span class="nbelem">27</span>
+		</li>
+		<li style="grid-column:9; grid-row:5;" class="element transmetal">
+			<span class="atommass">102.9055</span>
+			<h2 class="name">Rh</h2>
+			<span class="nbelem">45</span>
+		</li>
+		<li style="grid-column:9; grid-row:6;" class="element transmetal">
+			<span class="atommass">192.217</span>
+			<h2 class="name">Ir</h2>
+			<span class="nbelem">77</span>
+		</li>
+		<li style="grid-column:9; grid-row:7;" class="element transmetal">
+			<span class="atommass">278</span>
+			<h2 class="name">Mt</h2>
+			<span class="nbelem">109</span>
+		</li>
+
+		<li style="grid-column:10; grid-row:4;" class="element transmetal">
+			<span class="atommass">58.6934</span>
+			<h2 class="name">Ni</h2>
+			<span class="nbelem">28</span>
+		</li>
+		<li style="grid-column:10; grid-row:5;" class="element transmetal">
+			<span class="atommass">106.42</span>
+			<h2 class="name">Pd</h2>
+			<span class="nbelem">46</span>
+		</li>
+		<li style="grid-column:10; grid-row:6;" class="element transmetal">
+			<span class="atommass">195.084</span>
+			<h2 class="name">Pt</h2>
+			<span class="nbelem">78</span>
+		</li>
+		<li style="grid-column:10; grid-row:7;" class="element transmetal">
+			<span class="atommass">281</span>
+			<h2 class="name">Ds</h2>
+			<span class="nbelem">110</span>
+		</li>
+
+		<li style="grid-column:11; grid-row:4;" class="element transmetal">
+			<span class="atommass">63.546</span>
+			<h2 class="name">Cu</h2>
+			<span class="nbelem">29</span>
+		</li>
+		<li style="grid-column:11; grid-row:5;" class="element transmetal">
+			<span class="atommass">107.8682</span>
+			<h2 class="name">Ag</h2>
+			<span class="nbelem">47</span>
+		</li>
+		<li style="grid-column:11; grid-row:6;" class="element transmetal">
+			<span class="atommass">196.9665</span>
+			<h2 class="name">Au</h2>
+			<span class="nbelem">79</span>
+		</li>
+		<li style="grid-column:11; grid-row:7;" class="element transmetal">
+			<span class="atommass">282</span>
+			<h2 class="name">Rg</h2>
+			<span class="nbelem">111</span>
+		</li>
+
+		<li style="grid-column:12; grid-row:4;" class="element transmetal">
+			<span class="atommass">65.38</span>
+			<h2 class="name">Zn</h2>
+			<span class="nbelem">30</span>
+		</li>
+		<li style="grid-column:12; grid-row:5;" class="element transmetal">
+			<span class="atommass">112.414</span>
+			<h2 class="name">Cd</h2>
+			<span class="nbelem">48</span>
+		</li>
+		<li style="grid-column:12; grid-row:6;" class="element transmetal">
+			<span class="atommass">200.592</span>
+			<h2 class="name">Hg</h2>
+			<span class="nbelem">80</span>
+		</li>
+		<li style="grid-column:12; grid-row:7;" class="element transmetal">
+			<span class="atommass">285</span>
+			<h2 class="name">Cn</h2>
+			<span class="nbelem">112</span>
+		</li>
+
+		<li style="grid-column:13; grid-row:2;" class="element semimetal">
+			<span class="atommass">10.8135</span>
+			<h2 class="name">B</h2>
+			<span class="nbelem">5</span>
+		</li>
+		<li style="grid-column:13; grid-row:3;" class="element basicmetal">
+			<span class="atommass">26.9815</span>
+			<h2 class="name">Ai</h2>
+			<span class="nbelem">13</span>
+		</li>
+		<li style="grid-column:13; grid-row:4;" class="element basicmetal">
+			<span class="atommass">69.723</span>
+			<h2 class="name">Ga</h2>
+			<span class="nbelem">31</span>
+		</li>
+		<li style="grid-column:13; grid-row:5;" class="element basicmetal">
+			<span class="atommass">114.818</span>
+			<h2 class="name">In</h2>
+			<span class="nbelem">49</span>
+		</li>
+		<li style="grid-column:13; grid-row:6;" class="element basicmetal">
+			<span class="atommass">178.49</span>
+			<h2 class="name">Ti</h2>
+			<span class="nbelem">81</span>
+		</li>
+		<li style="grid-column:13; grid-row:7;" class="element basicmetal">
+			<span class="atommass">286</span>
+			<h2 class="name">Nh</h2>
+			<span class="nbelem">113</span>
+		</li>
+
+		<li style="grid-column:14; grid-row:2;" class="element nonmetal">
+			<span class="atommass">12.0106</span>
+			<h2 class="name">C</h2>
+			<span class="nbelem">6</span>
+		</li>
+		<li style="grid-column:14; grid-row:3;" class="element semimetal">
+			<span class="atommass">28.085</span>
+			<h2 class="name">Si</h2>
+			<span class="nbelem">14</span>
+		</li>
+		<li style="grid-column:14; grid-row:4;" class="element semimetal">
+			<span class="atommass">72.630</span>
+			<h2 class="name">Ge</h2>
+			<span class="nbelem">32</span>
+		</li>
+		<li style="grid-column:14; grid-row:5;" class="element basicmetal">
+			<span class="atommass">178.49</span>
+			<h2 class="name">Sn</h2>
+			<span class="nbelem">50</span>
+		</li>
+		<li style="grid-column:14; grid-row:6;" class="element basicmetal">
+			<span class="atommass">207.2</span>
+			<h2 class="name">Pb</h2>
+			<span class="nbelem">82</span>
+		</li>
+		<li style="grid-column:14; grid-row:7;" class="element basicmetal">
+			<span class="atommass">289</span>
+			<h2 class="name">Fi</h2>
+			<span class="nbelem">114</span>
+		</li>
+
+		<li style="grid-column:15; grid-row:2;" class="element nonmetal">
+			<span class="atommass">14.0068</span>
+			<h2 class="name">N</h2>
+			<span class="nbelem">7</span>
+		</li>
+		<li style="grid-column:15; grid-row:3;" class="element nonmetal">
+			<span class="atommass">30.9737</span>
+			<h2 class="name">P</h2>
+			<span class="nbelem">15</span>
+		</li>
+		<li style="grid-column:15; grid-row:4;" class="element semimetal">
+			<span class="atommass">74.9215</span>
+			<h2 class="name">As</h2>
+			<span class="nbelem">33</span>
+		</li>
+		<li style="grid-column:15; grid-row:5;" class="element semimetal">
+			<span class="atommass">121.760</span>
+			<h2 class="name">Sb</h2>
+			<span class="nbelem">51</span>
+		</li>
+		<li style="grid-column:15; grid-row:6;" class="element basicmetal">
+			<span class="atommass">208.9804</span>
+			<h2 class="name">Bi</h2>
+			<span class="nbelem">83</span>
+		</li>
+		<li style="grid-column:15; grid-row:7;" class="element basicmetal">
+			<span class="atommass">289</span>
+			<h2 class="name">Mc</h2>
+			<span class="nbelem">115</span>
+		</li>
+
+		<li style="grid-column:16; grid-row:2;" class="element nonmetal">
+			<span class="atommass">15.9994</span>
+			<h2 class="name">O</h2>
+			<span class="nbelem">8</span>
+		</li>
+		<li style="grid-column:16; grid-row:3;" class="element nonmetal">
+			<span class="atommass">32.0675</span>
+			<h2 class="name">S</h2>
+			<span class="nbelem">16</span>
+		</li>
+		<li style="grid-column:16; grid-row:4;" class="element nonmetal">
+			<span class="atommass">78.971</span>
+			<h2 class="name">Se</h2>
+			<span class="nbelem">34</span>
+		</li>
+		<li style="grid-column:16; grid-row:5;" class="element semimetal">
+			<span class="atommass">127.60</span>
+			<h2 class="name">Te</h2>
+			<span class="nbelem">52</span>
+		</li>
+		<li style="grid-column:16; grid-row:6;" class="element semimetal">
+			<span class="atommass">209</span>
+			<h2 class="name">Po</h2>
+			<span class="nbelem">84</span>
+		</li>
+		<li style="grid-column:16; grid-row:7;" class="element basicmetal">
+			<span class="atommass">293</span>
+			<h2 class="name">Lv</h2>
+			<span class="nbelem">116</span>
+		</li>
+
+		<li style="grid-column:17; grid-row:2;" class="element halogen">
+			<span class="atommass">18.9988</span>
+			<h2 class="name">F</h2>
+			<span class="nbelem">9</span>
+		</li>
+		<li style="grid-column:17; grid-row:3;" class="element halogen">
+			<span class="atommass">35.4515</span>
+			<h2 class="name">Cl</h2>
+			<span class="nbelem">17</span>
+		</li>
+		<li style="grid-column:17; grid-row:4;" class="element halogen">
+			<span class="atommass">79.904</span>
+			<h2 class="name">Br</h2>
+			<span class="nbelem">35</span>
+		</li>
+		<li style="grid-column:17; grid-row:5;" class="element halogen">
+			<span class="atommass">126.9044</span>
+			<h2 class="name">I</h2>
+			<span class="nbelem">53</span>
+		</li>
+		<li style="grid-column:17; grid-row:6;" class="element halogen">
+			<span class="atommass">126.9044</span>
+			<h2 class="name">At</h2>
+			<span class="nbelem">85</span>
+		</li>
+		<li style="grid-column:17; grid-row:7;" class="element halogen">
+			<span class="atommass">294</span>
+			<h2 class="name">Ts</h2>
+			<span class="nbelem">117</span>
+		</li>
+
+		<li style="grid-column:18; grid-row:1;" class="element noblegas">
+			<span class="atommass">4.0026</span>
+			<h2 class="name">He</h2>
+			<span class="nbelem">2</span>
+		</li>
+		<li style="grid-column:18; grid-row:2;" class="element noblegas">
+			<span class="atommass">20.1797</span>
+			<h2 class="name">Ne</h2>
+			<span class="nbelem">10</span>
+		</li>
+		<li style="grid-column:18; grid-row:3;" class="element noblegas">
+			<span class="atommass">39.948</span>
+			<h2 class="name">Ar</h2>
+			<span class="nbelem">18</span>
+		</li>
+		<li style="grid-column:18; grid-row:4;" class="element noblegas">
+			<span class="atommass">83.798</span>
+			<h2 class="name">Kr</h2>
+			<span class="nbelem">36</span>
+		</li>
+		<li style="grid-column:18; grid-row:5;" class="element noblegas">
+			<span class="atommass">131.293</span>
+			<h2 class="name">Xe</h2>
+			<span class="nbelem">54</span>
+		</li>
+		<li style="grid-column:18; grid-row:6;" class="element noblegas">
+			<span class="atommass">222</span>
+			<h2 class="name">Rn</h2>
+			<span class="nbelem">86</span>
+		</li>
+		<li style="grid-column:18; grid-row:7;" class="element noblegas">
+			<span class="atommass">294</span>
+			<h2 class="name">Og</h2>
+			<span class="nbelem">118</span>
+		</li>
+	</ol>
+	<ol class="wrapper" contenteditable>
+		<li style="grid-column:4; grid-row:1;" class="element lanthanide">
+			<span class="atommass">138.9054</span>
+			<h2 class="name">La</h2>
+			<span class="nbelem">57</span>
+		</li>
+		<li style="grid-column:4; grid-row:2;" class="element actinide">
+			<span class="atommass">227</span>
+			<h2 class="name">Ac</h2>
+			<span class="nbelem">89</span>
+		</li>
+
+		<li style="grid-column:5; grid-row:1;" class="element lanthanide">
+			<span class="atommass">140.116</span>
+			<h2 class="name">Ce</h2>
+			<span class="nbelem">58</span>
+		</li>
+		<li style="grid-column:5; grid-row:2;" class="element actinide">
+			<span class="atommass">232.0377</span>
+			<h2 class="name">Th</h2>
+			<span class="nbelem">90</span>
+		</li>
+
+		<li style="grid-column:6; grid-row:1;" class="element lanthanide">
+			<span class="atommass">140.9076</span>
+			<h2 class="name">Pr</h2>
+			<span class="nbelem">59</span>
+		</li>
+		<li style="grid-column:6; grid-row:2;" class="element actinide">
+			<span class="atommass">231.0358</span>
+			<h2 class="name">Pa</h2>
+			<span class="nbelem">91</span>
+		</li>
+
+		<li style="grid-column:7; grid-row:1;" class="element lanthanide">
+			<span class="atommass">144.242</span>
+			<h2 class="name">Nd</h2>
+			<span class="nbelem">60</span>
+		</li>
+		<li style="grid-column:7; grid-row:2;" class="element actinide">
+			<span class="atommass">238.0289</span>
+			<h2 class="name">U</h2>
+			<span class="nbelem">92</span>
+		</li>
+
+		<li style="grid-column:8; grid-row:1;" class="element lanthanide">
+			<span class="atommass">145</span>
+			<h2 class="name">Pm</h2>
+			<span class="nbelem">61</span>
+		</li>
+		<li style="grid-column:8; grid-row:2;" class="element actinide">
+			<span class="atommass">237</span>
+			<h2 class="name">Np</h2>
+			<span class="nbelem">93</span>
+		</li>
+
+		<li style="grid-column:9; grid-row:1;" class="element lanthanide">
+			<span class="atommass">150.36</span>
+			<h2 class="name">Sm</h2>
+			<span class="nbelem">62</span>
+		</li>
+		<li style="grid-column:9; grid-row:2;" class="element actinide">
+			<span class="atommass">244</span>
+			<h2 class="name">Pu</h2>
+			<span class="nbelem">94</span>
+		</li>
+
+		<li style="grid-column:10; grid-row:1;" class="element lanthanide">
+			<span class="atommass">151.964</span>
+			<h2 class="name">Eu</h2>
+			<span class="nbelem">63</span>
+		</li>
+		<li style="grid-column:10; grid-row:2;" class="element actinide">
+			<span class="atommass">243</span>
+			<h2 class="name">Am</h2>
+			<span class="nbelem">95</span>
+		</li>
+
+		<li style="grid-column:11; grid-row:1;" class="element lanthanide">
+			<span class="atommass">157.25</span>
+			<h2 class="name">Gd</h2>
+			<span class="nbelem">64</span>
+		</li>
+		<li style="grid-column:11; grid-row:2;" class="element actinide">
+			<span class="atommass">247</span>
+			<h2 class="name">Cm</h2>
+			<span class="nbelem">96</span>
+		</li>
+
+		<li style="grid-column:12; grid-row:1;" class="element lanthanide">
+			<span class="atommass">158.9253</span>
+			<h2 class="name">Tb</h2>
+			<span class="nbelem">65</span>
+		</li>
+		<li style="grid-column:12; grid-row:2;" class="element actinide">
+			<span class="atommass">247</span>
+			<h2 class="name">Bk</h2>
+			<span class="nbelem">97</span>
+		</li>
+
+		<li style="grid-column:13; grid-row:1;" class="element lanthanide">
+			<span class="atommass">162.500</span>
+			<h2 class="name">Dy</h2>
+			<span class="nbelem">66</span>
+		</li>
+		<li style="grid-column:13; grid-row:2;" class="element actinide">
+			<span class="atommass">251</span>
+			<h2 class="name">Cf</h2>
+			<span class="nbelem">98</span>
+		</li>
+
+		<li style="grid-column:14; grid-row:1;" class="element lanthanide">
+			<span class="atommass">164.9303</span>
+			<h2 class="name">Ho</h2>
+			<span class="nbelem">67</span>
+		</li>
+		<li style="grid-column:14; grid-row:2;" class="element actinide">
+			<span class="atommass">252</span>
+			<h2 class="name">Es</h2>
+			<span class="nbelem">99</span>
+		</li>
+
+		<li style="grid-column:15; grid-row:1;" class="element lanthanide">
+			<span class="atommass">167.259</span>
+			<h2 class="name">Er</h2>
+			<span class="nbelem">68</span>
+		</li>
+		<li style="grid-column:15; grid-row:2;" class="element actinide">
+			<span class="atommass">258</span>
+			<h2 class="name">Fm</h2>
+			<span class="nbelem">100</span>
+		</li>
+
+		<li style="grid-column:16; grid-row:1;" class="element lanthanide">
+			<span class="atommass">168.9342</span>
+			<h2 class="name">Tm</h2>
+			<span class="nbelem">69</span>
+		</li>
+		<li style="grid-column:16; grid-row:2;" class="element actinide">
+			<span class="atommass">258</span>
+			<h2 class="name">Md</h2>
+			<span class="nbelem">101</span>
+		</li>
+
+		<li style="grid-column:17; grid-row:1;" class="element lanthanide">
+			<span class="atommass">173.045</span>
+			<h2 class="name">Yb</h2>
+			<span class="nbelem">70</span>
+		</li>
+		<li style="grid-column:17; grid-row:2;" class="element actinide">
+			<span class="atommass">259</span>
+			<h2 class="name">No</h2>
+			<span class="nbelem">102</span>
+		</li>
+
+		<li style="grid-column:18; grid-row:1;" class="element lanthanide">
+			<span class="atommass">174.9668</span>
+			<h2 class="name">Lu</h2>
+			<span class="nbelem">71</span>
+		</li>
+		<li style="grid-column:18; grid-row:2;" class="element actinide">
+			<span class="atommass">266</span>
+			<h2 class="name">Lr</h2>
+			<span class="nbelem">103</span>
+		</li>
+	</ol>
+</body>
+</html>

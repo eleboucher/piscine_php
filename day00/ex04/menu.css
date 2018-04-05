@@ -1,0 +1,44 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    justify-content: center;    
+}
+  
+ul li {
+    display: block;
+    position: relative;
+    float: left;
+    background: #ff5100;
+    width: 400px;
+    text-align: center;
+}
+
+li ul { display: none; }
+  
+ ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+ }
+  
+ ul li a:hover { background: #2c3e50; }
+  
+ li:hover > ul {
+    display: block;
+    position: absolute;
+ }
+  
+li:hover li { float: none; }
+  
+li:hover a { background: #ff5100; }
+  
+li:hover li a:hover { background: #4f4f4f; }
+
+ul ul ul {
+    left: 100%;
+    top: 0;
+ }
+  
